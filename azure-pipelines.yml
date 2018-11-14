@@ -42,4 +42,4 @@ steps:
     ArtifactName: Module
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     
-- powershell: Publish-Module -Path ./output/[[$TemplateModuleName]]/ -NugetApiKey oy2hvclanx4ulq4ky2vqxln4mt5cnicevi2gietquhdccm
+- powershell: Publish-Module -Path ./output/MyAzureHelper/ -NugetApiKey oy2hvclanx4ulq4ky2vqxln4mt5cnicevi2gietquhdccm
